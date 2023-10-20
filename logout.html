@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logout.css">
+    <title>登出</title>
+</head>
+<body>
+<h1>確認登出？</h1>
+<br>
+<p>尚未確認，無法登出，請按下方按鈕進行驗證。</p>
+<button onclick="yes()">確認登出</button>
+<input type="button" value="取消登入" onclick="location.href='no-auth.html'">
+<script>
+    function yes() {
+      alert("確認登出？");
+      location.href='no-auth.html'
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+h1{
+    color:darkgreen
+}
+body{
+    background-image: url(B03.png)
+}
+a{
+    color: #0645AD;
+}
+h2{
+    color:red;
+    font-weight: bold;
+}
+p{
+    font: size 13px;
+}
